@@ -18,6 +18,10 @@
 			a {
 				color: #13262d !important;
 			}
+			tr td {
+				padding-top: 0;
+				padding-bottom: 5px;
+			}
 			.container {
 				width: 100%;
 				margin: 0;
@@ -35,18 +39,49 @@
 				background-color: #ffffff;
 			}
 			.cell-style {
-				padding: 67px 22px 67px 22px;
+				padding: 67px 20px 67px 20px;
 				vertical-align: top;
 				text-align: center;
-			}
-			tr td {
-				padding-top: 0;
-				padding-bottom: 5px;
 			}
 			.font-format {
 				font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', Helvetica, Arial,
 					sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 				font-weight: 300;
+			}
+			.cover-img {
+				margin: 0;
+				padding: 0;
+				background-image: url('https://s7986756.sendpul.se/image/747991a0e145ac2bbe69f063a9402e69/files/emailservice/userfiles/b00fc0f5391d2a84ea708b8f4d9cc1417986756/cover-img_cb86d219.png');
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: center;
+				width: 332px;
+				height: 150px;
+				max-width: 332px;
+			}
+			.text-on-img {
+				text-align: left;
+				color: #ffffff;
+				font-weight: 400;
+				font-family: 'Anton', 'Impact', sans-serif;
+			}
+			.img-small {
+				height: 100px;
+				width: 102px;
+				max-width: 102px;
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: center;
+			}
+			.text-on-img-small {
+				margin-top: 15px;
+				margin-left: 10px;
+				font-size: 13px;
+			}
+			.heading-text-on-img-small {
+				font-size: 25px;
+				margin-top: 15px;
+				margin-left: 40px;
 			}
 			.footer {
 				width: 100%;
@@ -58,8 +93,6 @@
 				.table-container {
 					width: 100% !important;
 				}
-			}
-			@media only screen and (max-width: 375px) {
 			}
 		</style>
 	</head>
@@ -76,15 +109,16 @@
 									height="31"
 									width="137"
 								/>
-
-								<img
-									style="margin-top: 61px"
-									src="https://s7986756.sendpul.se/image/747991a0e145ac2bbe69f063a9402e69/files/emailservice/userfiles/b00fc0f5391d2a84ea708b8f4d9cc1417986756/cover-img.png"
-									alt="cover image"
-									height="150"
-									width="332"
-								/>
 							</a>
+							<div
+								class="cover-img"
+								style="margin: 61px 0 0 0"
+								background="https://s7986756.sendpul.se/image/747991a0e145ac2bbe69f063a9402e69/files/emailservice/userfiles/b00fc0f5391d2a84ea708b8f4d9cc1417986756/cover-img_cb86d219.png"
+							>
+								<p class="text-on-img" style="padding-top: 115px; margin-left: 25px; font-size: 18px">
+									KENDRA JENNINGS
+								</p>
+							</div>
 							<p
 								style="
 									float: right;
@@ -163,35 +197,31 @@
 									</tr>
 								</tbody>
 							</table>
-							<table cellspacing="5" style="margin-top: 15px">
+							<table style="margin: 15px 0 0 0; border-spacing: 7px">
 								<tbody>
 									<tr>
-										<td style="padding-left: 0">
-											<a href=""
-												><img
-													src="https://s7986756.sendpul.se/image/747991a0e145ac2bbe69f063a9402e69/files/emailservice/userfiles/b00fc0f5391d2a84ea708b8f4d9cc1417986756/x3.png"
-													alt="x3 image"
-													height="105"
-													width="103"
-											/></a>
+										<td
+											style="padding-left: 1px"
+											class="img-small"
+											background="https://s7986756.sendpul.se/image/747991a0e145ac2bbe69f063a9402e69/files/emailservice/userfiles/b00fc0f5391d2a84ea708b8f4d9cc1417986756/Image_2.png"
+										>
+											<p class="text-on-img heading-text-on-img-small">x3</p>
+											<p class="text-on-img text-on-img-small">TRICKING</p>
 										</td>
-										<td>
-											<a href=""
-												><img
-													src="https://s7986756.sendpul.se/image/747991a0e145ac2bbe69f063a9402e69/files/emailservice/userfiles/b00fc0f5391d2a84ea708b8f4d9cc1417986756/x10.png"
-													alt="x10 image"
-													height="105"
-													width="103"
-											/></a>
+										<td
+											class="img-small"
+											background="https://s7986756.sendpul.se/image/747991a0e145ac2bbe69f063a9402e69/files/emailservice/userfiles/b00fc0f5391d2a84ea708b8f4d9cc1417986756/Image_2.png"
+										>
+											<p class="text-on-img heading-text-on-img-small">x10</p>
+											<p class="text-on-img text-on-img-small">BOXING</p>
 										</td>
-										<td style="padding-right: 0">
-											<a href=""
-												><img
-													src="https://s7986756.sendpul.se/image/747991a0e145ac2bbe69f063a9402e69/files/emailservice/userfiles/b00fc0f5391d2a84ea708b8f4d9cc1417986756/x1.png"
-													alt="x1 image"
-													height="105"
-													width="103"
-											/></a>
+										<td
+											style="padding-right: 1px"
+											class="img-small"
+											background="https://s7986756.sendpul.se/image/747991a0e145ac2bbe69f063a9402e69/files/emailservice/userfiles/b00fc0f5391d2a84ea708b8f4d9cc1417986756/Image_2.png"
+										>
+											<p class="text-on-img heading-text-on-img-small">x1</p>
+											<p class="text-on-img text-on-img-small">DANCE</p>
 										</td>
 									</tr>
 								</tbody>
